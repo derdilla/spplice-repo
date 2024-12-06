@@ -37,6 +37,15 @@
       "icon": "https://p2r3.github.io/spplice-repo/packages/reverse/icon.jpg"
     },
     {
+      "title": "Magnetic Walls",
+      "author": "PortalRunner",
+      "description": "Props are pulled towards walls and stick to them.\n\nUse your co-op ping tool bind (+mouse_menu) to toggle between difficulty settings. In easy mode, props stay on buttons and lasers. In hard mode, those elements are ignored.",
+      "version": "1.0.0",
+      "args": [],
+      "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/fridgemagnet.tar.xz",
+      "icon": "https://p2r3.github.io/spplice-repo/packages/fridgemagnet/icon.jpg"
+    },
+    {
       "title": "Gravity Redirect",
       "author": "PortalRunner",
       "description": "Gravity follows your feet. Every time you go through a portal, you are rotated so that the exit portal is on the ceiling.",
@@ -107,6 +116,15 @@
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/allswap.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/allswap/icon.jpg"
+    },
+    {
+      "title": "Handheld Portals",
+      "author": "PortalRunner",
+      "description": "Lets you pick up and hold portals.",
+      "version": "1.0.0",
+      "args": [],
+      "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/holdportals.tar.xz",
+      "icon": "https://p2r3.github.io/spplice-repo/packages/holdportals/icon.jpg"
     },
     {
       "title": "Prop Swap",
@@ -188,6 +206,15 @@
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/quantum-magnets.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/quantum-magnets/icon.jpg"
+    },
+    {
+      "title": "No Object Permanence",
+      "author": "PortalRunner",
+      "description": "If the world had no object permanence.\n\nObjects disappear entirely if left out of line of sight for more than 0.5 seconds. Objects only become subject to this once they've been observed at least once.",
+      "version": "1.0.0",
+      "args": [],
+      "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/object-permanence.tar.xz",
+      "icon": "https://p2r3.github.io/spplice-repo/packages/object-permanence/icon.jpg"
     },
     {
       "title": "Cold Potato",
