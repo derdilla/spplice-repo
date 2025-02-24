@@ -82,6 +82,15 @@
       "icon": "https://p2r3.github.io/spplice-repo/packages/vacuum/icon.jpg"
     },
     {
+      "title": "Mid-Portal Teleportation",
+      "author": "PortalRunner",
+      "description": "Everything is teleported to the midpoint between your two portals.",
+      "version": "1.0.0",
+      "args": [],
+      "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/mpt.tar.xz",
+      "icon": "https://p2r3.github.io/spplice-repo/packages/mpt/icon.jpg"
+    },
+    {
       "title": "Infinite Portals",
       "author": "PortalRunner",
       "description": "Every time you open a pair of portals, it starts a new set and locks in the previous one.\n\nA locked-in set of portals cannot be moved or replaced. Passing through a fizzler will not work either.",
