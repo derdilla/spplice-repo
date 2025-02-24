@@ -127,6 +127,15 @@
       "icon": "https://p2r3.github.io/spplice-repo/packages/holdportals/icon.jpg"
     },
     {
+      "title": "Camera Shy",
+      "author": "PortalRunner",
+      "description": "Stepping inside the line of sight of a camera will instantly kill you. The world is dark, and you have a flashlight. Cameras are also added to some maps which normally don't have them.",
+      "version": "1.0.0",
+      "args": [],
+      "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/camerashy.tar.xz",
+      "icon": "https://p2r3.github.io/spplice-repo/packages/camerashy/icon.jpg"
+    },
+    {
       "title": "Prop Swap",
       "author": "PortalRunner",
       "description": "Looking at a prop and pressing the co-op ping key (F by default) makes you and the prop swap places.\n\nProps are not solid and cannot pass through portals. The use key still works on things like buttons and cores.",
