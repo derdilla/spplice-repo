@@ -81,6 +81,18 @@ ppmod.onauto(function () {
     ppmod.fire("snd_gun_zap", "Kill");
     ppmod.fire("player_near_portalgun", "Kill");
 
+  } else if (mapname == "sp_a4_finale4") {
+
+    // Stop speedrun on stalemate room entry
+    local stalemate_rl = ppmod.get("stalemate_button_relay");
+    if (stalemate_rl.ValidateScriptScope()) {
+      local scope = stalemate_rl.GetScriptScope();
+      scope.InputTrigger <- function () {
+        SendToConsole("sar_speedrun_stop");
+        return true;
+      };
+    }
+
   }
 
   ppmod.interval(function () {
