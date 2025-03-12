@@ -1,12 +1,12 @@
 if (!("Entities" in this)) return;
-IncludeScript("ppmod4");
+IncludeScript("ppmod");
 
 ::ppanfBlockingEntities <- [
   "prop_testchamber_door",
   "trigger_portal_cleanser"
 ];
 
-::forcePlacePortal <- function (id, pplayer) {
+::forcePlacePortal <- function (id) {
 
   local start = GetPlayer().EyePosition();
   local end = start + pplayer.eyes.GetForwardVector() * 128;
@@ -44,35 +44,36 @@ IncludeScript("ppmod4");
 
 }
 
-::ppanfSetupDone <- false;
 ppmod.onauto(async(function () {
 
-  if (GetMapName().tolower() == "sp_a2_pull_the_rug") {
-    ::ppanfBlockingEntities <- ["prop_testchamber_door"];
+  local mapname = GetMapName().tolower();
+  local player = GetPlayer();
+
+  switch (mapname) {
+    // This is the startup map
+    // We place the player next to the portal gun to skip the start
+    case "sp_a1_intro3":
+      player.SetOrigin(Vector(102, 1910, -324));
+      player.SetAngles(Vector(28.75, 148.27));
+      break;
+    // Pull The Rug has a giant fizzler covering the whole map
+    // This makes the blocking entities list not consider it
+    case "sp_a2_pull_the_rug":
+      ::ppanfBlockingEntities <- ["prop_testchamber_door"];
+      break;
+    default:
+      break;
   }
 
-  yield ppmod.player(GetPlayer());
-  local pplayer = ::syncnext;
+  ::pplayer <- ppmod.player(player);
+  yield pplayer.init();
 
-  ppmod.interval(function ():(pplayer) {
+  // Direct all attack inputs to the forcePlacePortal function
+  // This will still fire regular portals, which then get replaced
+  pplayer.oninput("+attack", "forcePlacePortal(0)");
+  pplayer.oninput("+attack2", "forcePlacePortal(1)");
 
-    if (::ppanfSetupDone) return;
-
-    local pgun = ppmod.get("weapon_portalgun");
-    if (!pgun) return;
-
-    pgun.AddScript("OnFiredPortal1", function ():(pplayer) {
-      ::forcePlacePortal(0, pplayer);
-    });
-    pgun.AddScript("OnFiredPortal2", function ():(pplayer) {
-      ::forcePlacePortal(1, pplayer);
-    });
-
-    ppmod.get("find_portalgun_interval").Destroy();
-    ::ppanfSetupDone <- true;
-
-  }, 0, "find_portalgun_interval");
-
+  // Fizzle all map portals upon contact with a fizzler
   ppmod.addoutput("trigger_portal_cleanser", "OnFizzle", "prop_portal", "Fizzle");
 
 }));

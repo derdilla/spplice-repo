@@ -12,4 +12,7 @@ exec autoexec.cfg
 //
 stuffcmds
 
-load ../../../portal2_tempcontent/airportals
+sar_speedrun_offset 0
+sar_speedrun_start_on_load 1
+
+map sp_a1_intro3
