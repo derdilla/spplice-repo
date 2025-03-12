@@ -67,7 +67,7 @@
       "title": "Offset Mod",
       "author": "PortalRunner",
       "description": "You can create an anchor point, move any distance away from it, and then use that offset on a different position. In simpler terms, you can pocket your movement for later.\n\nUse your co-op ping bind to create and apply offsets.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/offsetmod.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/offsetmod/icon.jpg"
