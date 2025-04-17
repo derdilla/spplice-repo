@@ -38,7 +38,7 @@ jobs:
 
             if [ -d "$vpk_dir" ]; then
               echo "Creating pak01_dir.vpk for $package_name"
-              vpk -c "$vpk_dir" "$vpk_file"
+              vpk -c "$vpk_dir" "$vpk_file" -cv 1
               rm -rf "$vpk_dir"
             fi
 
