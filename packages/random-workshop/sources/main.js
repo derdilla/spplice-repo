@@ -89,6 +89,8 @@ function processVersionCheck () {
 
 // User's SteamID as returned by loading a save
 var steamid = "";
+// URL for the last played map
+var currentMapURL = "";
 // File path for the next precached map
 var nextMap = "";
 // Counter for calls of processConsoleOutput
@@ -130,6 +132,8 @@ function processConsoleOutput () {
 
     // Process request for a new random map
     if (line.indexOf("Fetching a random map...") !== -1) {
+      // Print the URL for the map the player just completed
+      if (currentMapURL) sendToConsole(gameSocket, 'echo "Completed map\'s URL: ' + currentMapURL + '";echo;echo');
       // Start a cached map if available, download a new one otherwise
       startMap(nextMap ? nextMap : forceRandomMap(false));
       // Precache the next random map
@@ -174,8 +178,9 @@ function processConsoleOutput () {
 }
 
 // Starts a map from the given path
-function startMap (path) {
-  return sendToConsole(gameSocket, 'disconnect;map "' + path + '"');
+function startMap (data) {
+  currentMapURL = data.url;
+  return sendToConsole(gameSocket, 'disconnect;map "' + data.path + '"');
 }
 
 // Wrapper for getRandomMap - retries until the procedure succeeds
@@ -195,7 +200,7 @@ function forceRandomMap (previous) {
  * used to retrieve the last two queried entries.
  *
  * @param {boolean} previous Whether to get the previously downloaded maps
- * @returns {string|string[]} Downloaded map path(s) for use with "map" command
+ * @returns {object|object[]} Downloaded map URL(s) and path(s) for use with "map" command
  */
 function getRandomMap (previous) {
 
@@ -215,9 +220,12 @@ function getRandomMap (previous) {
  * Downloads a workshop map from the given data object.
  *
  * @param {object} data Map data from the Steam API
- * @returns {string} Downloaded map path for use with "map" command
+ * @returns {object} Downloaded map URL and path for use with "map" command
  */
 function downloadMap (data) {
+
+  // Construct workshop page URL
+  const pageURL = "https://steamcommunity.com/sharedfiles/filedetails/?id=" + data.publishedfileid;
 
   // Extract the workshop folder and BSP name from map data
   const pathWorkshop = data.file_url.split("/ugc/").pop().split("/")[0];
@@ -229,7 +237,7 @@ function downloadMap (data) {
   const outputPath = "workshop/" + pathWorkshop + "/" + pathBSP;
 
   // Check if we already have the map
-  if (pathExists(fullPath)) return outputPath;
+  if (pathExists(fullPath)) return { path: outputPath, url: pageURL };
 
   // Ensure the parent path exists
   if (!pathExists(workshopDir)) fs.mkdir(workshopDir);
@@ -238,7 +246,7 @@ function downloadMap (data) {
     // Perform the download
     download.file(fullPath, data.file_url);
     // Return the map path for use with the "map" command
-    return outputPath;
+    return { path: outputPath, url: pageURL };
   } catch (err) {
     // On error, remove the partially downloaded file
     if (pathExists(fullPath)) fs.unlink(fullPath);

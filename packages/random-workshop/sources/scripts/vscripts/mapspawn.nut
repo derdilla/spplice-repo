@@ -44,9 +44,9 @@ if (!("Entities" in this)) return;
 // Called when the map end condition is reached
 ::__elFinish <- function () {
   // Print this message as a signal to JS API that we need the next map
-  printl("Fetching a random map...");
+  printl("\n\nFetching a random map...");
   // Silently pause the game while the map is loaded
-  printl("setpause nomsg");
+  SendToConsole("setpause nomsg");
 };
 
 // Run the entrypoint function as soon as entity I/O kicks in
