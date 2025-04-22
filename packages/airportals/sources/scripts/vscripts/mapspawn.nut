@@ -56,9 +56,10 @@ ppmod.onauto(async(function () {
       player.SetOrigin(Vector(102, 1910, -324));
       player.SetAngles(Vector(28.75, 148.27));
       break;
-    // Pull The Rug has a giant fizzler covering the whole map
+    // Pull The Rug and Jailbreak have a giant fizzler covering the whole map
     // This makes the blocking entities list not consider it
     case "sp_a2_pull_the_rug":
+    case "sp_a2_bts1":
       ::ppanfBlockingEntities <- ["prop_testchamber_door"];
       break;
     default:
