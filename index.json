@@ -28,6 +28,15 @@
       "icon": "https://p2r3.github.io/spplice-repo/packages/odyssey/icon.jpg"
     },
     {
+      "title": "Size Gun",
+      "author": "PortalRunner",
+      "description": "An alternate universe where Valve made a Portal game without the portals.<br>The single-player campaign has been modified to facilitate a \"size gun\" instead of the portal gun.<br><br>Commissioned by Questathana on Ko-fi.",
+      "version": "1.1.0",
+      "args": [],
+      "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/resize.tar.xz",
+      "icon": "https://p2r3.github.io/spplice-repo/packages/resize/icon.jpg"
+    },
+    {
       "title": "Reverse Mod",
       "author": "PortalRunner",
       "description": "Chell goes back to sleep, undoing the chaos on her way back by unsolving test chambers and returning the facility to how it was when she woke up.",

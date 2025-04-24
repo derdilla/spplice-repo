@@ -1,0 +1,18 @@
+// load the base configuration
+//exec default.cfg
+
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
+
+// precache sounds
+snd_rebuildaudiocache
+// this map load will instantly kick us to the menu
+map SP_A5_CREDITS

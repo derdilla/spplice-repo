@@ -1,0 +1,3123 @@
+"Entities"
+{
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_0-2x"
+      "model" "models/props/metal_box_0-2x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_0-2x_template"
+      "template01" "_mod_metal_box_0-2x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_0-3x"
+      "model" "models/props/metal_box_0-3x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_0-3x_template"
+      "template01" "_mod_metal_box_0-3x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_0-4x"
+      "model" "models/props/metal_box_0-4x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_0-4x_template"
+      "template01" "_mod_metal_box_0-4x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_0-5x"
+      "model" "models/props/metal_box_0-5x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_0-5x_template"
+      "template01" "_mod_metal_box_0-5x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_0-6x"
+      "model" "models/props/metal_box_0-6x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_0-6x_template"
+      "template01" "_mod_metal_box_0-6x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_0-7x"
+      "model" "models/props/metal_box_0-7x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_0-7x_template"
+      "template01" "_mod_metal_box_0-7x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_0-8x"
+      "model" "models/props/metal_box_0-8x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_0-8x_template"
+      "template01" "_mod_metal_box_0-8x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_0-9x"
+      "model" "models/props/metal_box_0-9x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_0-9x_template"
+      "template01" "_mod_metal_box_0-9x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_1-0x"
+      "model" "models/props/metal_box_1-0x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_1-0x_template"
+      "template01" "_mod_metal_box_1-0x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_1-1x"
+      "model" "models/props/metal_box_1-1x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_1-1x_template"
+      "template01" "_mod_metal_box_1-1x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_1-2x"
+      "model" "models/props/metal_box_1-2x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_1-2x_template"
+      "template01" "_mod_metal_box_1-2x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_1-3x"
+      "model" "models/props/metal_box_1-3x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_1-3x_template"
+      "template01" "_mod_metal_box_1-3x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_1-4x"
+      "model" "models/props/metal_box_1-4x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_1-4x_template"
+      "template01" "_mod_metal_box_1-4x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_1-5x"
+      "model" "models/props/metal_box_1-5x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_1-5x_template"
+      "template01" "_mod_metal_box_1-5x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_1-6x"
+      "model" "models/props/metal_box_1-6x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_1-6x_template"
+      "template01" "_mod_metal_box_1-6x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_1-7x"
+      "model" "models/props/metal_box_1-7x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_1-7x_template"
+      "template01" "_mod_metal_box_1-7x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_1-8x"
+      "model" "models/props/metal_box_1-8x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_1-8x_template"
+      "template01" "_mod_metal_box_1-8x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_1-9x"
+      "model" "models/props/metal_box_1-9x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_1-9x_template"
+      "template01" "_mod_metal_box_1-9x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_2-0x"
+      "model" "models/props/metal_box_2-0x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_2-0x_template"
+      "template01" "_mod_metal_box_2-0x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_2-1x"
+      "model" "models/props/metal_box_2-1x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_2-1x_template"
+      "template01" "_mod_metal_box_2-1x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_2-2x"
+      "model" "models/props/metal_box_2-2x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_2-2x_template"
+      "template01" "_mod_metal_box_2-2x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_2-3x"
+      "model" "models/props/metal_box_2-3x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_2-3x_template"
+      "template01" "_mod_metal_box_2-3x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_2-4x"
+      "model" "models/props/metal_box_2-4x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_2-4x_template"
+      "template01" "_mod_metal_box_2-4x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_2-5x"
+      "model" "models/props/metal_box_2-5x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_2-5x_template"
+      "template01" "_mod_metal_box_2-5x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_2-6x"
+      "model" "models/props/metal_box_2-6x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_2-6x_template"
+      "template01" "_mod_metal_box_2-6x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_2-7x"
+      "model" "models/props/metal_box_2-7x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_2-7x_template"
+      "template01" "_mod_metal_box_2-7x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_2-8x"
+      "model" "models/props/metal_box_2-8x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_2-8x_template"
+      "template01" "_mod_metal_box_2-8x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_2-9x"
+      "model" "models/props/metal_box_2-9x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_2-9x_template"
+      "template01" "_mod_metal_box_2-9x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_3-0x"
+      "model" "models/props/metal_box_3-0x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_3-0x_template"
+      "template01" "_mod_metal_box_3-0x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_3-1x"
+      "model" "models/props/metal_box_3-1x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_3-1x_template"
+      "template01" "_mod_metal_box_3-1x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_3-2x"
+      "model" "models/props/metal_box_3-2x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_3-2x_template"
+      "template01" "_mod_metal_box_3-2x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_3-3x"
+      "model" "models/props/metal_box_3-3x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_3-3x_template"
+      "template01" "_mod_metal_box_3-3x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_3-4x"
+      "model" "models/props/metal_box_3-4x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_3-4x_template"
+      "template01" "_mod_metal_box_3-4x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_3-5x"
+      "model" "models/props/metal_box_3-5x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_3-5x_template"
+      "template01" "_mod_metal_box_3-5x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_3-6x"
+      "model" "models/props/metal_box_3-6x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_3-6x_template"
+      "template01" "_mod_metal_box_3-6x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_3-7x"
+      "model" "models/props/metal_box_3-7x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_3-7x_template"
+      "template01" "_mod_metal_box_3-7x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_3-8x"
+      "model" "models/props/metal_box_3-8x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_3-8x_template"
+      "template01" "_mod_metal_box_3-8x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_3-9x"
+      "model" "models/props/metal_box_3-9x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_3-9x_template"
+      "template01" "_mod_metal_box_3-9x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_metal_box_4-0x"
+      "model" "models/props/metal_box_4-0x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_metal_box_4-0x_template"
+      "template01" "_mod_metal_box_4-0x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_0-2x"
+      "model" "models/props/reflection_cube_0-2x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_0-2x_template"
+      "template01" "_mod_reflection_cube_0-2x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_0-3x"
+      "model" "models/props/reflection_cube_0-3x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_0-3x_template"
+      "template01" "_mod_reflection_cube_0-3x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_0-4x"
+      "model" "models/props/reflection_cube_0-4x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_0-4x_template"
+      "template01" "_mod_reflection_cube_0-4x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_0-5x"
+      "model" "models/props/reflection_cube_0-5x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_0-5x_template"
+      "template01" "_mod_reflection_cube_0-5x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_0-6x"
+      "model" "models/props/reflection_cube_0-6x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_0-6x_template"
+      "template01" "_mod_reflection_cube_0-6x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_0-7x"
+      "model" "models/props/reflection_cube_0-7x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_0-7x_template"
+      "template01" "_mod_reflection_cube_0-7x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_0-8x"
+      "model" "models/props/reflection_cube_0-8x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_0-8x_template"
+      "template01" "_mod_reflection_cube_0-8x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_0-9x"
+      "model" "models/props/reflection_cube_0-9x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_0-9x_template"
+      "template01" "_mod_reflection_cube_0-9x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_1-0x"
+      "model" "models/props/reflection_cube_1-0x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_1-0x_template"
+      "template01" "_mod_reflection_cube_1-0x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_1-1x"
+      "model" "models/props/reflection_cube_1-1x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_1-1x_template"
+      "template01" "_mod_reflection_cube_1-1x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_1-2x"
+      "model" "models/props/reflection_cube_1-2x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_1-2x_template"
+      "template01" "_mod_reflection_cube_1-2x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_1-3x"
+      "model" "models/props/reflection_cube_1-3x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_1-3x_template"
+      "template01" "_mod_reflection_cube_1-3x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_1-4x"
+      "model" "models/props/reflection_cube_1-4x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_1-4x_template"
+      "template01" "_mod_reflection_cube_1-4x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_1-5x"
+      "model" "models/props/reflection_cube_1-5x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_1-5x_template"
+      "template01" "_mod_reflection_cube_1-5x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_1-6x"
+      "model" "models/props/reflection_cube_1-6x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_1-6x_template"
+      "template01" "_mod_reflection_cube_1-6x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_1-7x"
+      "model" "models/props/reflection_cube_1-7x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_1-7x_template"
+      "template01" "_mod_reflection_cube_1-7x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_1-8x"
+      "model" "models/props/reflection_cube_1-8x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_1-8x_template"
+      "template01" "_mod_reflection_cube_1-8x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_1-9x"
+      "model" "models/props/reflection_cube_1-9x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_1-9x_template"
+      "template01" "_mod_reflection_cube_1-9x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_2-0x"
+      "model" "models/props/reflection_cube_2-0x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_2-0x_template"
+      "template01" "_mod_reflection_cube_2-0x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_2-1x"
+      "model" "models/props/reflection_cube_2-1x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_2-1x_template"
+      "template01" "_mod_reflection_cube_2-1x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_2-2x"
+      "model" "models/props/reflection_cube_2-2x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_2-2x_template"
+      "template01" "_mod_reflection_cube_2-2x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_2-3x"
+      "model" "models/props/reflection_cube_2-3x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_2-3x_template"
+      "template01" "_mod_reflection_cube_2-3x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_2-4x"
+      "model" "models/props/reflection_cube_2-4x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_2-4x_template"
+      "template01" "_mod_reflection_cube_2-4x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_2-5x"
+      "model" "models/props/reflection_cube_2-5x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_2-5x_template"
+      "template01" "_mod_reflection_cube_2-5x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_2-6x"
+      "model" "models/props/reflection_cube_2-6x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_2-6x_template"
+      "template01" "_mod_reflection_cube_2-6x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_2-7x"
+      "model" "models/props/reflection_cube_2-7x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_2-7x_template"
+      "template01" "_mod_reflection_cube_2-7x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_2-8x"
+      "model" "models/props/reflection_cube_2-8x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_2-8x_template"
+      "template01" "_mod_reflection_cube_2-8x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_2-9x"
+      "model" "models/props/reflection_cube_2-9x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_2-9x_template"
+      "template01" "_mod_reflection_cube_2-9x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_3-0x"
+      "model" "models/props/reflection_cube_3-0x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_3-0x_template"
+      "template01" "_mod_reflection_cube_3-0x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_3-1x"
+      "model" "models/props/reflection_cube_3-1x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_3-1x_template"
+      "template01" "_mod_reflection_cube_3-1x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_3-2x"
+      "model" "models/props/reflection_cube_3-2x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_3-2x_template"
+      "template01" "_mod_reflection_cube_3-2x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_3-3x"
+      "model" "models/props/reflection_cube_3-3x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_3-3x_template"
+      "template01" "_mod_reflection_cube_3-3x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_3-4x"
+      "model" "models/props/reflection_cube_3-4x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_3-4x_template"
+      "template01" "_mod_reflection_cube_3-4x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_3-5x"
+      "model" "models/props/reflection_cube_3-5x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_3-5x_template"
+      "template01" "_mod_reflection_cube_3-5x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_3-6x"
+      "model" "models/props/reflection_cube_3-6x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_3-6x_template"
+      "template01" "_mod_reflection_cube_3-6x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_3-7x"
+      "model" "models/props/reflection_cube_3-7x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_3-7x_template"
+      "template01" "_mod_reflection_cube_3-7x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_3-8x"
+      "model" "models/props/reflection_cube_3-8x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_3-8x_template"
+      "template01" "_mod_reflection_cube_3-8x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_3-9x"
+      "model" "models/props/reflection_cube_3-9x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_3-9x_template"
+      "template01" "_mod_reflection_cube_3-9x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_reflection_cube_4-0x"
+      "model" "models/props/reflection_cube_4-0x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_reflection_cube_4-0x_template"
+      "template01" "_mod_reflection_cube_4-0x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_0-2x"
+      "model" "models/props_underground/underground_weighted_cube_0-2x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_0-2x_template"
+      "template01" "_mod_underground_weighted_cube_0-2x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_0-3x"
+      "model" "models/props_underground/underground_weighted_cube_0-3x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_0-3x_template"
+      "template01" "_mod_underground_weighted_cube_0-3x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_0-4x"
+      "model" "models/props_underground/underground_weighted_cube_0-4x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_0-4x_template"
+      "template01" "_mod_underground_weighted_cube_0-4x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_0-5x"
+      "model" "models/props_underground/underground_weighted_cube_0-5x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_0-5x_template"
+      "template01" "_mod_underground_weighted_cube_0-5x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_0-6x"
+      "model" "models/props_underground/underground_weighted_cube_0-6x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_0-6x_template"
+      "template01" "_mod_underground_weighted_cube_0-6x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_0-7x"
+      "model" "models/props_underground/underground_weighted_cube_0-7x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_0-7x_template"
+      "template01" "_mod_underground_weighted_cube_0-7x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_0-8x"
+      "model" "models/props_underground/underground_weighted_cube_0-8x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_0-8x_template"
+      "template01" "_mod_underground_weighted_cube_0-8x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_0-9x"
+      "model" "models/props_underground/underground_weighted_cube_0-9x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_0-9x_template"
+      "template01" "_mod_underground_weighted_cube_0-9x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_1-0x"
+      "model" "models/props_underground/underground_weighted_cube_1-0x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_1-0x_template"
+      "template01" "_mod_underground_weighted_cube_1-0x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_1-1x"
+      "model" "models/props_underground/underground_weighted_cube_1-1x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_1-1x_template"
+      "template01" "_mod_underground_weighted_cube_1-1x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_1-2x"
+      "model" "models/props_underground/underground_weighted_cube_1-2x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_1-2x_template"
+      "template01" "_mod_underground_weighted_cube_1-2x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_1-3x"
+      "model" "models/props_underground/underground_weighted_cube_1-3x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_1-3x_template"
+      "template01" "_mod_underground_weighted_cube_1-3x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_1-4x"
+      "model" "models/props_underground/underground_weighted_cube_1-4x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_1-4x_template"
+      "template01" "_mod_underground_weighted_cube_1-4x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_1-5x"
+      "model" "models/props_underground/underground_weighted_cube_1-5x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_1-5x_template"
+      "template01" "_mod_underground_weighted_cube_1-5x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_1-6x"
+      "model" "models/props_underground/underground_weighted_cube_1-6x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_1-6x_template"
+      "template01" "_mod_underground_weighted_cube_1-6x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_1-7x"
+      "model" "models/props_underground/underground_weighted_cube_1-7x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_1-7x_template"
+      "template01" "_mod_underground_weighted_cube_1-7x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_1-8x"
+      "model" "models/props_underground/underground_weighted_cube_1-8x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_1-8x_template"
+      "template01" "_mod_underground_weighted_cube_1-8x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_1-9x"
+      "model" "models/props_underground/underground_weighted_cube_1-9x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_1-9x_template"
+      "template01" "_mod_underground_weighted_cube_1-9x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_2-0x"
+      "model" "models/props_underground/underground_weighted_cube_2-0x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_2-0x_template"
+      "template01" "_mod_underground_weighted_cube_2-0x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_2-1x"
+      "model" "models/props_underground/underground_weighted_cube_2-1x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_2-1x_template"
+      "template01" "_mod_underground_weighted_cube_2-1x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_2-2x"
+      "model" "models/props_underground/underground_weighted_cube_2-2x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_2-2x_template"
+      "template01" "_mod_underground_weighted_cube_2-2x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_2-3x"
+      "model" "models/props_underground/underground_weighted_cube_2-3x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_2-3x_template"
+      "template01" "_mod_underground_weighted_cube_2-3x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_2-4x"
+      "model" "models/props_underground/underground_weighted_cube_2-4x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_2-4x_template"
+      "template01" "_mod_underground_weighted_cube_2-4x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_2-5x"
+      "model" "models/props_underground/underground_weighted_cube_2-5x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_2-5x_template"
+      "template01" "_mod_underground_weighted_cube_2-5x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_2-6x"
+      "model" "models/props_underground/underground_weighted_cube_2-6x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_2-6x_template"
+      "template01" "_mod_underground_weighted_cube_2-6x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_2-7x"
+      "model" "models/props_underground/underground_weighted_cube_2-7x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_2-7x_template"
+      "template01" "_mod_underground_weighted_cube_2-7x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_2-8x"
+      "model" "models/props_underground/underground_weighted_cube_2-8x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_2-8x_template"
+      "template01" "_mod_underground_weighted_cube_2-8x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_2-9x"
+      "model" "models/props_underground/underground_weighted_cube_2-9x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_2-9x_template"
+      "template01" "_mod_underground_weighted_cube_2-9x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_3-0x"
+      "model" "models/props_underground/underground_weighted_cube_3-0x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_3-0x_template"
+      "template01" "_mod_underground_weighted_cube_3-0x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_3-1x"
+      "model" "models/props_underground/underground_weighted_cube_3-1x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_3-1x_template"
+      "template01" "_mod_underground_weighted_cube_3-1x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_3-2x"
+      "model" "models/props_underground/underground_weighted_cube_3-2x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_3-2x_template"
+      "template01" "_mod_underground_weighted_cube_3-2x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_3-3x"
+      "model" "models/props_underground/underground_weighted_cube_3-3x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_3-3x_template"
+      "template01" "_mod_underground_weighted_cube_3-3x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_3-4x"
+      "model" "models/props_underground/underground_weighted_cube_3-4x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_3-4x_template"
+      "template01" "_mod_underground_weighted_cube_3-4x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_3-5x"
+      "model" "models/props_underground/underground_weighted_cube_3-5x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_3-5x_template"
+      "template01" "_mod_underground_weighted_cube_3-5x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_3-6x"
+      "model" "models/props_underground/underground_weighted_cube_3-6x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_3-6x_template"
+      "template01" "_mod_underground_weighted_cube_3-6x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_3-7x"
+      "model" "models/props_underground/underground_weighted_cube_3-7x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_3-7x_template"
+      "template01" "_mod_underground_weighted_cube_3-7x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_3-8x"
+      "model" "models/props_underground/underground_weighted_cube_3-8x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_3-8x_template"
+      "template01" "_mod_underground_weighted_cube_3-8x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_3-9x"
+      "model" "models/props_underground/underground_weighted_cube_3-9x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_3-9x_template"
+      "template01" "_mod_underground_weighted_cube_3-9x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_underground_weighted_cube_4-0x"
+      "model" "models/props_underground/underground_weighted_cube_4-0x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_underground_weighted_cube_4-0x_template"
+      "template01" "_mod_underground_weighted_cube_4-0x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_0-2x"
+      "model" "models/npcs/monsters/monster_a_box_0-2x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_0-2x_template"
+      "template01" "_mod_monster_a_box_0-2x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_0-3x"
+      "model" "models/npcs/monsters/monster_a_box_0-3x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_0-3x_template"
+      "template01" "_mod_monster_a_box_0-3x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_0-4x"
+      "model" "models/npcs/monsters/monster_a_box_0-4x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_0-4x_template"
+      "template01" "_mod_monster_a_box_0-4x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_0-5x"
+      "model" "models/npcs/monsters/monster_a_box_0-5x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_0-5x_template"
+      "template01" "_mod_monster_a_box_0-5x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_0-6x"
+      "model" "models/npcs/monsters/monster_a_box_0-6x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_0-6x_template"
+      "template01" "_mod_monster_a_box_0-6x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_0-7x"
+      "model" "models/npcs/monsters/monster_a_box_0-7x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_0-7x_template"
+      "template01" "_mod_monster_a_box_0-7x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_0-8x"
+      "model" "models/npcs/monsters/monster_a_box_0-8x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_0-8x_template"
+      "template01" "_mod_monster_a_box_0-8x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_0-9x"
+      "model" "models/npcs/monsters/monster_a_box_0-9x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_0-9x_template"
+      "template01" "_mod_monster_a_box_0-9x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_1-0x"
+      "model" "models/npcs/monsters/monster_a_box_1-0x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_1-0x_template"
+      "template01" "_mod_monster_a_box_1-0x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_1-1x"
+      "model" "models/npcs/monsters/monster_a_box_1-1x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_1-1x_template"
+      "template01" "_mod_monster_a_box_1-1x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_1-2x"
+      "model" "models/npcs/monsters/monster_a_box_1-2x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_1-2x_template"
+      "template01" "_mod_monster_a_box_1-2x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_1-3x"
+      "model" "models/npcs/monsters/monster_a_box_1-3x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_1-3x_template"
+      "template01" "_mod_monster_a_box_1-3x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_1-4x"
+      "model" "models/npcs/monsters/monster_a_box_1-4x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_1-4x_template"
+      "template01" "_mod_monster_a_box_1-4x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_1-5x"
+      "model" "models/npcs/monsters/monster_a_box_1-5x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_1-5x_template"
+      "template01" "_mod_monster_a_box_1-5x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_1-6x"
+      "model" "models/npcs/monsters/monster_a_box_1-6x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_1-6x_template"
+      "template01" "_mod_monster_a_box_1-6x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_1-7x"
+      "model" "models/npcs/monsters/monster_a_box_1-7x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_1-7x_template"
+      "template01" "_mod_monster_a_box_1-7x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_1-8x"
+      "model" "models/npcs/monsters/monster_a_box_1-8x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_1-8x_template"
+      "template01" "_mod_monster_a_box_1-8x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_1-9x"
+      "model" "models/npcs/monsters/monster_a_box_1-9x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_1-9x_template"
+      "template01" "_mod_monster_a_box_1-9x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_2-0x"
+      "model" "models/npcs/monsters/monster_a_box_2-0x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_2-0x_template"
+      "template01" "_mod_monster_a_box_2-0x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_2-1x"
+      "model" "models/npcs/monsters/monster_a_box_2-1x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_2-1x_template"
+      "template01" "_mod_monster_a_box_2-1x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_2-2x"
+      "model" "models/npcs/monsters/monster_a_box_2-2x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_2-2x_template"
+      "template01" "_mod_monster_a_box_2-2x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_2-3x"
+      "model" "models/npcs/monsters/monster_a_box_2-3x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_2-3x_template"
+      "template01" "_mod_monster_a_box_2-3x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_2-4x"
+      "model" "models/npcs/monsters/monster_a_box_2-4x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_2-4x_template"
+      "template01" "_mod_monster_a_box_2-4x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_2-5x"
+      "model" "models/npcs/monsters/monster_a_box_2-5x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_2-5x_template"
+      "template01" "_mod_monster_a_box_2-5x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_2-6x"
+      "model" "models/npcs/monsters/monster_a_box_2-6x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_2-6x_template"
+      "template01" "_mod_monster_a_box_2-6x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_2-7x"
+      "model" "models/npcs/monsters/monster_a_box_2-7x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_2-7x_template"
+      "template01" "_mod_monster_a_box_2-7x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_2-8x"
+      "model" "models/npcs/monsters/monster_a_box_2-8x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_2-8x_template"
+      "template01" "_mod_monster_a_box_2-8x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_2-9x"
+      "model" "models/npcs/monsters/monster_a_box_2-9x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_2-9x_template"
+      "template01" "_mod_monster_a_box_2-9x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_3-0x"
+      "model" "models/npcs/monsters/monster_a_box_3-0x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_3-0x_template"
+      "template01" "_mod_monster_a_box_3-0x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_3-1x"
+      "model" "models/npcs/monsters/monster_a_box_3-1x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_3-1x_template"
+      "template01" "_mod_monster_a_box_3-1x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_3-2x"
+      "model" "models/npcs/monsters/monster_a_box_3-2x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_3-2x_template"
+      "template01" "_mod_monster_a_box_3-2x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_3-3x"
+      "model" "models/npcs/monsters/monster_a_box_3-3x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_3-3x_template"
+      "template01" "_mod_monster_a_box_3-3x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_3-4x"
+      "model" "models/npcs/monsters/monster_a_box_3-4x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_3-4x_template"
+      "template01" "_mod_monster_a_box_3-4x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_3-5x"
+      "model" "models/npcs/monsters/monster_a_box_3-5x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_3-5x_template"
+      "template01" "_mod_monster_a_box_3-5x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_3-6x"
+      "model" "models/npcs/monsters/monster_a_box_3-6x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_3-6x_template"
+      "template01" "_mod_monster_a_box_3-6x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_3-7x"
+      "model" "models/npcs/monsters/monster_a_box_3-7x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_3-7x_template"
+      "template01" "_mod_monster_a_box_3-7x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_3-8x"
+      "model" "models/npcs/monsters/monster_a_box_3-8x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_3-8x_template"
+      "template01" "_mod_monster_a_box_3-8x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_3-9x"
+      "model" "models/npcs/monsters/monster_a_box_3-9x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_3-9x_template"
+      "template01" "_mod_monster_a_box_3-9x"
+      "spawnflags" "2"
+    }
+    "entity"
+    {
+      "classname" "prop_weighted_cube"
+      "CubeType" "6"
+      "SkinType" "0"
+      "PaintPower" "4"
+      "NewSkins" "1"
+      "allowfunnel" "1"
+      "targetname" "_mod_monster_a_box_4-0x"
+      "model" "models/npcs/monsters/monster_a_box_4-0x.mdl"
+      "origin" "65536 65536 65536"
+      "angles" "0 0 0"
+    }
+    "entity"
+    {
+      "classname" "point_template"
+      "targetname" "_mod_monster_a_box_4-0x_template"
+      "template01" "_mod_monster_a_box_4-0x"
+      "spawnflags" "2"
+    }
+}
