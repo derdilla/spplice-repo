@@ -4,7 +4,7 @@
       "title": "Mid-Air Portals",
       "author": "PortalRunner",
       "description": "Lets you place portals mid-air.\n\nPortals cannot be placed on solid surfaces - placement is instead forced 128 Hammer units in front of the player, facing them. Chamber doors and fizzlers will reject portals, but other than that, no placement restrictions apply.",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/airportals.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/airportals/icon.jpg"

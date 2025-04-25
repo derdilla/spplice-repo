@@ -52,7 +52,8 @@ ppmod.onauto(function () {
   }
 
   // Fizzle all map portals upon contact with a fizzler
-  ppmod.addoutput("trigger_portal_cleanser", "OnFizzle", "prop_portal", "Fizzle");
+  ppmod.addoutput("trigger_portal_cleanser", "OnStartTouch", "prop_portal", "Fizzle");
+  ppmod.addoutput("trigger_portal_cleanser", "OnEndTouch", "prop_portal", "Fizzle");
 
   ppmod.forent("prop_portal", function (portal) {
     if (portal.GetName() == "") return;
