@@ -97,7 +97,6 @@ ppmod.onauto(function () {
 
   SendToConsole("hud_saytext_time 0");
   SendToConsole("sv_cheats 1");
-  SendToConsole("sv_alternateticks 0");
 
   local mod = {
     pplayer = ppmod.player(GetPlayer()),
@@ -236,8 +235,11 @@ ppmod.onauto(function () {
       ppmod.fire("viewmodel", "DisableDraw");
     }
 
-    if (!mod.entity || !mod.pitch) return;
-    if (!ppmod.validate(mod.entity)) return;
+    if (!mod.entity || !mod.pitch) return SendToConsole("sv_alternateticks 1");
+    if (!ppmod.validate(mod.entity)) return SendToConsole("sv_alternateticks 1");
+
+    // Force altticks to 0 to make scaling smoother and more responsive
+    SendToConsole("sv_alternateticks 0");
 
     local ent = mod.entity;
     local scope = ent.GetScriptScope();
