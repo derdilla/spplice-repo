@@ -353,8 +353,10 @@ ppmod.onauto(function () {
       prop.SetOrigin(pos + Vector(0, 0, (scaleDiff > 0.0 ? 20.0 : 18.1) * scaleDiff));
       prop.SetAngles(ang);
       // Temporarily freeze the prop to stabilize fast back-to-back scaling
-      prop.DisableMotion();
-      prop.EnableMotion("", 0.1);
+      if (!holding) {
+        prop.DisableMotion();
+        prop.EnableMotion("", 0.1);
+      }
 
       // Run FCPS on the player if the prop intersects them
       if (!MOD_JUMP_ON_SCALE && ppmod.intersect(prop, mod.pplayer.ent)) {
