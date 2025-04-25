@@ -6,49 +6,34 @@ IncludeScript("ppmod");
   "trigger_portal_cleanser"
 ];
 
-::forcePlacePortal <- function (id) {
+ppmod.onauto(function () {
 
-  local start = GetPlayer().EyePosition();
-  local end = start + pplayer.eyes.GetForwardVector() * 128;
+  local pplayer = ppmod.player(GetPlayer());
 
-  local ray = ppmod.ray(start, end, ::ppanfBlockingEntities);
+  ppmod.onportal(function (shot):(pplayer) {
 
-  if (ray.fraction != 1.0) {
+    if (!shot.weapon) return;
+    shot.portal.SetActivatedState(0);
 
-    local portal = null;
-    while (portal = ppmod.get("prop_portal", portal)) {
-      if (portal.GetModelName()[21] - 49 == id) {
-        portal.Fire("SetActivatedState", 0);
-      }
-    }
+    local pos = pplayer.eyes.GetOrigin();
+    local ang = pplayer.eyes.GetAngles();
+    local fvec = pplayer.eyes.GetForwardVector();
 
-    return;
+    local target = pos + fvec * 128.0;
 
-  }
+    local ray = ppmod.ray(pos, target, ::ppanfBlockingEntities);
+    if (ray.entity) return;
 
-  local bpos = end + pplayer.eyes.GetForwardVector() * 2;
-  local ang = pplayer.eyes.GetAngles();
+    local targetF = ray.point;
+    local targetB = targetF + fvec * 2.0;
 
-  local portal = null;
-  while (portal = ppmod.get("prop_portal", portal)) {
-    if (portal.GetModelName()[21] - 49 == id) {
-      portal.SetOrigin(end);
-      portal.SetForwardVector(Vector() - pplayer.eyes.GetForwardVector());
-    }
-  }
+    local id = shot.color - 1;
+    SendToConsole("portal_place 1 "+id+" "+targetF.x+" "+targetF.y+" "+targetF.z+" "+(-ang.x)+" "+(ang.y + 180)+" 0");
+    SendToConsole("portal_place 2 "+id+" "+targetB.x+" "+targetB.y+" "+targetB.z+" "+ang.x+" "+ang.y+" 0");
 
-  ppmod.wait(function ():(id, end, bpos, ang) {
-    SendToConsole("portal_place 0 "+id+" "+end.x+" "+end.y+" "+end.z+" "+(-ang.x)+" "+(ang.y + 180)+" 0");
-    SendToConsole("portal_place 1 "+id+" "+bpos.x+" "+bpos.y+" "+bpos.z+" "+ang.x+" "+ang.y+" 0");
-  }, FrameTime());
-
-}
-
-ppmod.onauto(async(function () {
+  });
 
   local mapname = GetMapName().tolower();
-  local player = GetPlayer();
-
   switch (mapname) {
     // This is the startup map
     // We place the player next to the portal gun to skip the start
@@ -66,18 +51,15 @@ ppmod.onauto(async(function () {
       break;
   }
 
-  ::pplayer <- ppmod.player(player);
-  yield pplayer.init();
-
-  // Direct all attack inputs to the forcePlacePortal function
-  // This will still fire regular portals, which then get replaced
-  pplayer.oninput("+attack", "forcePlacePortal(0)");
-  pplayer.oninput("+attack2", "forcePlacePortal(1)");
-
   // Fizzle all map portals upon contact with a fizzler
   ppmod.addoutput("trigger_portal_cleanser", "OnFizzle", "prop_portal", "Fizzle");
 
-}));
+  ppmod.forent("prop_portal", function (portal) {
+    if (portal.GetName() == "") return;
+    portal.SetLinkageGroupID(1);
+  });
+
+});
 
 ppmod.onauto(function () {
 
