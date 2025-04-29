@@ -1,13 +1,14 @@
 if(!("Entities" in this)) return;
 if("rocket" in this) return;
 IncludeScript("ppmod3");
+IncludeScript("sl_rockets");
 
 ::rocket <- {};
 
 local auto = Entities.CreateByClassname("logic_auto");
 ppmod.addscript(auto, "OnMapSpawn", "rocket.setup()");
 
-rocket.setup <- function() {   
+rocket.setup <- function() {
 
   ppmod.once(function() {
 
@@ -27,7 +28,7 @@ rocket.setup <- function() {
 
     local txt = ppmod.text("", -1, 0.925);
     ppmod.interval(function(txt = txt) {
-      
+
       txt.SetText("Health: " + max(0, GetPlayer().GetHealth()));
       txt.Display();
 

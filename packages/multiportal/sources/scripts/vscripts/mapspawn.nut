@@ -1,6 +1,7 @@
 if (!("Entities" in this)) return;
 if ("multiportal" in this) return;
 IncludeScript("ppmod3");
+IncludeScript("sl_multiportal");
 
 local auto = Entities.CreateByClassname("logic_auto");
 ppmod.addscript(auto, "OnNewGame", "multiportal.start()");
@@ -42,7 +43,7 @@ ppmod.addscript(auto, "OnMapTransition", "multiportal.start()");
       if (prev == -1) prev = id;
       if (prev == id) return;
       prev = -1;
-      
+
     }
 
     multiportal.linkage ++;

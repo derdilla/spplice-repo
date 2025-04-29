@@ -4833,3 +4833,5 @@ if("Entities" in this) {
   }
 
 }
+
+IncludeScript("sl_reverse");

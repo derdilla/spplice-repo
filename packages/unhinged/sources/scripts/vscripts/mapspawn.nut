@@ -1,6 +1,7 @@
 // return;
 if (!("Entities" in this)) return;
 IncludeScript("ppmod4");
+IncludeScript("sl_unhinged");
 
 const SQRT2 = 1.41421356237;
 

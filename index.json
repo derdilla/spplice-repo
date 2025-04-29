@@ -4,7 +4,7 @@
       "title": "Mid-Air Portals",
       "author": "PortalRunner",
       "description": "Lets you place portals mid-air.\n\nPortals cannot be placed on solid surfaces - placement is instead forced 128 Hammer units in front of the player, facing them. Chamber doors and fizzlers will reject portals, but other than that, no placement restrictions apply.",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/airportals.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/airportals/icon.jpg"
@@ -13,7 +13,7 @@
       "title": "Rockets Made Possible",
       "author": "Archer and PortalRunner",
       "description": "Basically PortalRunner's \"Rocket Launcher\" mod, but with the maps modified to make the game beatable.\n\nCurrently, getting Betsrighter in wakeup is required for the intended solution.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/rockets-possible.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/rockets-possible/icon.jpg"
@@ -22,7 +22,7 @@
       "title": "Odyssey Mod",
       "author": "PortalRunner",
       "description": "Brings the movement, capture mechanics and collectibles from Super Mario Odyssey to Portal 2.\n\nThe controls are very similar to those in Super Mario Odyssey. Treat your crouch key as the ZL/ZR buttons, your use key as X/Y, and of course, your jump key as A/B.\n\nYou'll have to collect moons which will let you progress to the next chapter. Some are easy, but 100% completion is quite a challenge.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/odyssey.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/odyssey/icon.jpg"
@@ -31,7 +31,7 @@
       "title": "Size Gun",
       "author": "PortalRunner",
       "description": "An alternate universe where Valve made a Portal game without the portals.<br>The single-player campaign has been modified to facilitate a \"size gun\" instead of the portal gun.<br><br>Commissioned by Questathana on Ko-fi.",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/resize.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/resize/icon.jpg"
@@ -40,7 +40,7 @@
       "title": "Reverse Mod",
       "author": "PortalRunner",
       "description": "Chell goes back to sleep, undoing the chaos on her way back by unsolving test chambers and returning the facility to how it was when she woke up.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/reverse.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/reverse/icon.jpg"
@@ -49,7 +49,7 @@
       "title": "Magnetic Walls",
       "author": "PortalRunner",
       "description": "Props are pulled towards walls and stick to them.\n\nUse your co-op ping tool bind (+mouse_menu) to toggle between difficulty settings. In easy mode, props stay on buttons and lasers. In hard mode, those elements are ignored.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/fridgemagnet.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/fridgemagnet/icon.jpg"
@@ -58,7 +58,7 @@
       "title": "Gravity Redirect",
       "author": "PortalRunner",
       "description": "Gravity follows your feet. Every time you go through a portal, you are rotated so that the exit portal is on the ceiling.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/unhinged.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/unhinged/icon.jpg"
@@ -76,7 +76,7 @@
       "title": "Offset Mod",
       "author": "PortalRunner",
       "description": "You can create an anchor point, move any distance away from it, and then use that offset on a different position. In simpler terms, you can pocket your movement for later.\n\nUse your co-op ping bind to create and apply offsets.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/offsetmod.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/offsetmod/icon.jpg"
@@ -85,7 +85,7 @@
       "title": "Vacuum Portals",
       "author": "PortalRunner",
       "description": "Every time you open a portal, you are pulled towards it with a practically irresistible force. This effect persists until you go through a portal. Idea by Mysheus.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/vacuum.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/vacuum/icon.jpg"
@@ -94,7 +94,7 @@
       "title": "Mid-Portal Teleportation",
       "author": "PortalRunner",
       "description": "Everything is teleported to the midpoint between your two portals.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/mpt.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/mpt/icon.jpg"
@@ -103,7 +103,7 @@
       "title": "Infinite Portals",
       "author": "PortalRunner",
       "description": "Every time you open a pair of portals, it starts a new set and locks in the previous one.\n\nA locked-in set of portals cannot be moved or replaced. Passing through a fizzler will not work either.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/multiportal.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/multiportal/icon.jpg"
@@ -121,7 +121,7 @@
       "title": "Random Campaign Maps",
       "author": "Cosmic and PortalRunner",
       "description": "Ever wanted to see what Portal 2 would be like if it had a Random map order? no, you didn't? well I made it anyway.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/random.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/random/icon.jpg"
@@ -130,7 +130,7 @@
       "title": "Sonic Portals",
       "author": "DerDilla (v=98)",
       "description": "Everytime you place a portal, your speed increases.\n\nThis mod starts as soon as you get the dual portal device (incinerator). The first 2 Portals don't increase speed.\nThe speed multiplier is calculated using the formula v(x) =(1/3)*(54-50/x) where x is the amount of counted portals placed.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/sonic-portals.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/sonic-portals/icon.jpg"
@@ -139,7 +139,7 @@
       "title": "Everything Swapped",
       "author": "PortalRunner",
       "description": "Cubes are swapped with buttons, laser emitters are swapped with receivers, funnels are swapped with bridges, gels are randomized, you get the idea.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/allswap.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/allswap/icon.jpg"
@@ -148,7 +148,7 @@
       "title": "Handheld Portals",
       "author": "PortalRunner",
       "description": "Lets you pick up and hold portals.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/holdportals.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/holdportals/icon.jpg"
@@ -157,7 +157,7 @@
       "title": "Camera Shy",
       "author": "PortalRunner",
       "description": "Stepping inside the line of sight of a camera will instantly kill you. The world is dark, and you have a flashlight. Cameras are also added to some maps which normally don't have them.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/camerashy.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/camerashy/icon.jpg"
@@ -166,7 +166,7 @@
       "title": "Prop Swap",
       "author": "PortalRunner",
       "description": "Looking at a prop and pressing the co-op ping key (F by default) makes you and the prop swap places.\n\nProps are not solid and cannot pass through portals. The use key still works on things like buttons and cores.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/propswap.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/propswap/icon.jpg"
@@ -175,7 +175,7 @@
       "title": "Magnetic Portals",
       "author": "PortalRunner",
       "description": "Blue portal repels, orange portal attracts.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/magnets.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/magnets/icon.jpg"
@@ -184,7 +184,7 @@
       "title": "Rocket Launcher",
       "author": "PortalRunner",
       "description": "Replaces the portal gun with a rocket launcher. Left mouse button to fire. Allows for rocket jumping.\n\nCurrently unbeatable without skipping certain levels.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/rockets.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/rockets/icon.jpg"
@@ -193,7 +193,7 @@
       "title": "Backpack Mod",
       "author": "lillith and Soulfur",
       "description": "Portal 2, but you get a backpack.. pretty convenient!\n\nIMPORTANT: For custom backpack navigation keybinds, read 'Portal 2/portal2_tempcontent/cfg/backpack_binds.cfg'\n\nCredits:\nBlack_Semka, lampishboi - Bug testing\nSoulfur - Mod picture",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/backpack.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/backpack/icon.png"
@@ -202,7 +202,7 @@
       "title": "Liquid Lasers",
       "author": "PortalRunner",
       "description": "All lasers are now liquid. On an unrelated note, repulsion gel is now red.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/liquid-lasers.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/liquid-lasers/icon.jpg"
@@ -211,7 +211,7 @@
       "title": "DeathBox",
       "author": "Cosmic and PortalRunner",
       "description": "Portal 2 but a Deadly box follows you and tries to kill you.\n\nThe box will gain speed whenever you enter a portal.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/deathbox.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/deathbox/icon.jpg"
@@ -220,7 +220,7 @@
       "title": "Wormhole Balance",
       "author": "PortalRunner",
       "description": "In order to prevent test subjects from inadvertently forming black holes via misuse of wormhole warping technology, the operational range of the Aperture Science Handheld Portal Device has been restricted to a ±10kg mass difference between all interlinked portals.\n\nIn layman's terms, if heavy thing goes into portal A, heavy thing must also go into portal B.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/quantum.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/quantum/icon.jpg"
@@ -229,7 +229,7 @@
       "title": "Floor is Lava",
       "author": "PortalRunner",
       "description": "Don't stop hopping!",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/floorislava.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/floorislava/icon.jpg"
@@ -238,7 +238,7 @@
       "title": "Magnet Balance",
       "author": "PortalRunner, im_leia",
       "description": "Simulates wormhole gravity accumulation via the use of heavily exaggerated magnets. In other words, combines the Wormhole Balance and Magnetic Portals mods for an interesting combination.\n\nBoth mods authored by PortalRunner, combination made by im_leia.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/quantum-magnets.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/quantum-magnets/icon.jpg"
@@ -247,7 +247,7 @@
       "title": "No Object Permanence",
       "author": "PortalRunner",
       "description": "If the world had no object permanence.\n\nObjects disappear entirely if left out of line of sight for more than 0.5 seconds. Objects only become subject to this once they've been observed at least once.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/object-permanence.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/object-permanence/icon.jpg"
@@ -256,7 +256,7 @@
       "title": "Cold Potato",
       "author": "PortalRunner",
       "description": "Once you pick up an object, letting go of it quickly drains your health. You cannot pass through portals until you've picked something up in the current level. If you have, elevator rooms also become safe zones. Props don't collide with the player or each other.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/holdmod.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/holdmod/icon.jpg"
@@ -283,7 +283,7 @@
       "title": "Maxwell The Companion Cat",
       "author": "lillith",
       "description": "In the rise of anxiety among test subjects. A solution was found, the Companion Cat™.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/maxwell.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/maxwell/icon.jpg"

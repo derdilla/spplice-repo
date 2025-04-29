@@ -1,5 +1,6 @@
 if(!("Entities" in this)) return;
 IncludeScript("ppmod3");
+IncludeScript("sl_random");
 
 if(!("randm" in this)) {
 

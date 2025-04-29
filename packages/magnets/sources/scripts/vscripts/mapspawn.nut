@@ -1,4 +1,5 @@
 if(!("Entities" in this)) return;
+IncludeScript("sl_magnets");
 
 // If the point_pushes aren't set up already, we do that here.
 if(!Entities.FindByName(null,"magnet-player")){

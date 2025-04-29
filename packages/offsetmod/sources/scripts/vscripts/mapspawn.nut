@@ -1,5 +1,6 @@
 if (!("Entities" in this)) return;
 IncludeScript("ppmod4");
+IncludeScript("sl_offsetmod");
 
 ::ghostOffset <- Vector();
 ::ghostMode <- 0;
@@ -34,10 +35,10 @@ IncludeScript("ppmod4");
     ::playSoundLoud("P2Editor.ExpandButton");
 
   } else if (::ghostMode == 2) {
-    
+
     ::ghostOffset = GetPlayer().GetOrigin() - ::ghostOffset;
     GetPlayer().SetAbsOrigin(GetPlayer().GetOrigin() - ::ghostOffset);
-    
+
     ::playSoundLoud("P2Editor.ConnectItems");
 
   } else {
@@ -103,7 +104,7 @@ ppmod.onauto(function () {
     } else if (::ghostMode == 2) {
 
       local newpos = GetPlayer().GetOrigin() + ::ghostOffset;
-      
+
       if (::checkPlayerPosition(newpos)) {
         DebugDrawBox(newpos, Vector(-16, -16, 0), Vector(16, 16, 72), 80, 255, 80, 60, -1);
       } else {

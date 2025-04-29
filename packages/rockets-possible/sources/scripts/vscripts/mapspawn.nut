@@ -1,6 +1,7 @@
 if(!("Entities" in this)) return;
 if("rocket" in this) return;
 IncludeScript("ppmod3");
+IncludeScript("sl_rockets-possible");
 
 ::rocket <- {};
 
@@ -24,9 +25,9 @@ rocket.setup <- function() {
   if (GetMapName()=="sp_a5_credits") {
     ppmod.fire("weapon_portalgun", "Kill");
     ppmod.fire("viewmodel", "Kill");
-    return; 
+    return;
   }
-  
+
   ppmod.once(function() {
     rocket.mapload();
 
@@ -46,7 +47,7 @@ rocket.setup <- function() {
 
     local txt = ppmod.text("", -1, 0.925);
     ppmod.interval(function(txt = txt) {
-      
+
       txt.SetText("Health: " + max(0, GetPlayer().GetHealth()));
       txt.Display();
 
@@ -169,7 +170,7 @@ rocket.fire <- function() {
             ppmod.fire("hit_once", "Kill");
           },5);
         }, "hit_once");
-        
+
       }
       else if ((abs(offset3.x)<=90 && abs(offset3.y)<=100 && abs(offset3.z)<=30)){
           ppmod.once(function(){
@@ -183,11 +184,11 @@ rocket.fire <- function() {
             ppmod.wait(function(){
               SendToConsole("changelevel  death_map");
             }, 2.5);
-            
+
           }, "end_thing")
         }
     }
-    
+
 
     local vel = GetPlayer().GetVelocity();
     local vec = rocket.positions[str] - GetPlayer().GetCenter();
@@ -263,7 +264,7 @@ rocket.mapload <- function () {
     ppmod.fire(catcher, "TurnOff");
     local end=ppmod.get("prop_laser_catcher");
     end.SetOrigin(Vector(96, 111, 10));
-    
+
   }
   else if (GetMapName()=="sp_a2_sphere_peek"){
     local catcher=ppmod.get("prop_laser_catcher");
@@ -327,7 +328,7 @@ rocket.mapload <- function () {
     ppmod.addscript(trigger, "OnStartTouch", function(){
       SendToConsole("portal_place 0 0 895.969 -1472.000 192.000 0.000 180.000 0.000; ");
       SendToConsole("portal_place 0 1 -92.646 -1152.031 328.031 0.000 -90.000 0.000; ");
-      
+
     })
   }
   else if (GetMapName()=="sp_a4_finale3"){

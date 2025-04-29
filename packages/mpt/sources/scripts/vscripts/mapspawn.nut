@@ -1,5 +1,6 @@
 if (!("Entities" in this)) return;
 IncludeScript("ppmod");
+IncludeScript("sl_mpt");
 
 ::mptPortal1 <- null;
 ::mptPortal2 <- null;

@@ -1,6 +1,7 @@
 if (!("Entities" in this)) return;
 if ("setupFunc" in this) return;
 IncludeScript("ppmod3");
+IncludeScript("sl_deathbox");
 
 positionArray <- [];
 portalsArray <- [];

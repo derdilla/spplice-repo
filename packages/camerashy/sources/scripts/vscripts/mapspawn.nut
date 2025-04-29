@@ -1,5 +1,6 @@
 if (!("Entities" in this)) return;
 IncludeScript("ppmod");
+IncludeScript("sl_camerashy");
 
 const CONE_FOV = 30.0;
 

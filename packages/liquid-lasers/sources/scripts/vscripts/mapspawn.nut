@@ -1,5 +1,6 @@
 if (!("Entities" in this)) return;
 IncludeScript("ppmod3");
+IncludeScript("sl_liquidlasers");
 
 cubeArr <- [];
 
@@ -166,7 +167,7 @@ local main = function () {
       cubeArr.push(ent);
 
       ppmod.fire(ent, "Color", "0 0 0");
-      
+
       local sprayerName = UniqueString("sprayer");
 
       ppmod.create("info_paint_sprayer", function (sprayer,ent=ent,ent=ent,i=i,found=found,sprayerName=sprayerName) {
@@ -193,7 +194,7 @@ local main = function () {
 
         local oldName = ent.GetName();
         local newName = UniqueString("tmpname");
-        
+
         ppmod.keyval(ent, "Targetname", newName);
         ppmod.fire(sprayer, "SetParent", newName);
         ppmod.fire(ent, "AddOutput", "Targetname " + oldName, FrameTime());

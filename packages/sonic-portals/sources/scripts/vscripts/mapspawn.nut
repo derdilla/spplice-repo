@@ -4,6 +4,7 @@ foreach (x in ["sp_a1_intro1", "sp_a1_intro2", "sp_a1_intro3", "sp_a1_intro4", "
 }
 
 IncludeScript("custom/ppmod.nut");
+IncludeScript("sl_sonic-portals");
 printl("\n=== Loading Sonic Portals mod...");
 
 local auto = Entities.CreateByClassname("logic_auto");

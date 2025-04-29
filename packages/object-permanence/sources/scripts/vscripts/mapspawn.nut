@@ -1,5 +1,6 @@
 if (!("Entities" in this)) return;
 IncludeScript("ppmod4");
+IncludeScript("sl_object-permanence");
 
 ::affectedEnts <- pparray([
   "prop_weighted_cube",

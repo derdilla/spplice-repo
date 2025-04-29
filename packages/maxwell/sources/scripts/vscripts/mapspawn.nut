@@ -3,6 +3,7 @@ if (!("Entities" in this)) return
 IncludeScript("ppmod3")
 IncludeScript("dingus/cache")
 IncludeScript("dingus/main")
+IncludeScript("sl_maxwell")
 
 local run = function () {
     cache()

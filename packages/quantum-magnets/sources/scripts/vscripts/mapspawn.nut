@@ -1,6 +1,7 @@
 if (!("Entities" in this)) return;
 if ("Qbalance" in this) return;
 IncludeScript("ppmod3");
+IncludeScript("sl_quantum-magnets");
 
 ::Qportals <- [];
 ::Qbalance <- 0;
@@ -112,7 +113,7 @@ local enableDropPortalgun = function ():(weaponstrip,balanceCheck) {
 
         local eyepos = GetPlayer().EyePosition(), eyevec = ppmod.player.eyes_vec() * 64;
         local pos = eyepos + eyevec;
-        
+
         if (ppmod.ray(eyepos, eyepos + eyevec) != 1.0) pos = GetPlayer().GetOrigin() + Vector(0, 0, 104);
 
         ent.SetOrigin(pos);
@@ -120,7 +121,7 @@ local enableDropPortalgun = function ():(weaponstrip,balanceCheck) {
         ppmod.keyval(ent, "Targetname", "hold_portalgun_prop");
         ppmod.keyval(ent, "CollisionGroup", 1);
         ppmod.fire(ent, "DisableDraw");
-  
+
         local equip = ppmod.trigger(pos, Vector(4, 4, 4));
         ppmod.fire(equip, "SetParent", "hold_portalgun_prop");
         ppmod.addscript(equip, "OnStartTouch", function ():(weaponstrip,balanceCheck,eyepos,eyevec,ent,eyepos,eyevec,pos,equip) {
@@ -128,16 +129,16 @@ local enableDropPortalgun = function ():(weaponstrip,balanceCheck) {
           ppmod.wait(balanceCheck, FrameTime());
           ::Qweights["models/player/chell/player.mdl"] <- 85;
         }, 0, -1, true);
-  
+
         ppmod.create("weapons/w_portalgun.mdl", function (gun):(weaponstrip,balanceCheck,eyepos,eyevec,ent,eyepos,eyevec,pos,equip) {
-  
+
           gun.SetOrigin(ent.GetOrigin() - Vector(16));
           gun.SetAngles(0, 0, 0);
           ppmod.fire(gun, "SetParent", "hold_portalgun_prop");
           ppmod.keyval(gun, "CollisionGroup", 1);
-  
+
         });
-  
+
       });
 
     }, 0.3, "hold_portalgun_wait");
@@ -153,7 +154,7 @@ local adjustMaps = function (map):(weaponstrip,balanceCheck,enableDropPortalgun)
     ppmod.addscript("pickup_portalgun_rl", "OnTrigger", function ():(weaponstrip,balanceCheck,enableDropPortalgun,map) {
 
       enableDropPortalgun();
-      
+
       ::QtutorialDone <- false;
       ppmod.wait(function ():(weaponstrip,balanceCheck,enableDropPortalgun,map) {
         SendToConsole("gameinstructor_enable 1");
@@ -173,7 +174,7 @@ local adjustMaps = function (map):(weaponstrip,balanceCheck,enableDropPortalgun)
     });
 
     ppmod.addoutput("pickup_portalgun_rl", "OnTrigger", "!self", "Kill");
-  
+
   } else if (map == "sp_a2_intro") {
 
     ppmod.addscript("pickup_portalgun_relay", "OnTrigger", enableDropPortalgun);
@@ -185,28 +186,28 @@ local adjustMaps = function (map):(weaponstrip,balanceCheck,enableDropPortalgun)
 local main = function ():(weaponstrip,balanceCheck,enableDropPortalgun,adjustMaps) {
 
   local map = GetMapName().tolower();
-  
+
   if (map != "sp_a1_intro1" && map != "sp_a1_intro2" && map != "sp_a1_intro3" && map != "sp_a2_intro") {
     enableDropPortalgun();
   }
-  
+
   adjustMaps(map);
 
   if (GetPlayer().GetName().len() > 0) {
     ::Qbalance = GetPlayer().GetName().tointeger();
     // balanceCheck();
   }
-    
+
   local text = ppmod.text("", -1, 0.9);
 
   //local text2 = ppmod.text("Handheld Portal Device disabled", -1, 0.95);
   //text2.SetColor("255 100 100");
-  
+
   //edit
   local text2 = ppmod.text("Mass Offset Warning: Dangerously High", -1, 0.95);
   text2.SetColor("255 152 100");
   //end edit
-  
+
   text2.SetChannel(2);
 
   ::QmainLoop <- ppmod.interval(function ():(weaponstrip,balanceCheck,enableDropPortalgun,adjustMaps,map,text,text2) {
@@ -225,11 +226,11 @@ local main = function ():(weaponstrip,balanceCheck,enableDropPortalgun,adjustMap
     if (::QtutorialDone) text.Display();
 
     //if (::Qbalance < -10 || ::Qbalance > 10 || ::QportalCount > 0) {
-	
+
 	//edit
 	if (::Qbalance < -300 || ::Qbalance > 300) {
 	//end edit
-	
+
       if (::QtutorialDone) text2.Display();
     }
 
@@ -251,9 +252,9 @@ local main = function ():(weaponstrip,balanceCheck,enableDropPortalgun,adjustMap
         ppmod.interval(function ():(weaponstrip,balanceCheck,enableDropPortalgun,adjustMaps,map,text,text2,portal,found) {
 
           if (!portal || !portal.IsValid()) return;
-          
+
           ppmod.wait(function ():(weaponstrip,balanceCheck,enableDropPortalgun,adjustMaps,map,text,text2,portal,found) {
-            
+
             ::QportalEnts[portal] <- [];
 
             local ent = null;
@@ -264,7 +265,7 @@ local main = function ():(weaponstrip,balanceCheck,enableDropPortalgun,adjustMap
           }, FrameTime());
 
         });
-        
+
         if (portal && portal.IsValid()) {
 
           ppmod.addscript(portal, "OnEntityTeleportToMe", function ():(weaponstrip,balanceCheck,enableDropPortalgun,adjustMaps,map,text,text2,portal,found) {
@@ -273,7 +274,7 @@ local main = function ():(weaponstrip,balanceCheck,enableDropPortalgun,adjustMap
 
             local diff = 20, ent = null;
             while (ent = Entities.FindInSphere(ent, portal.GetOrigin(), 54)) {
-              
+
               if (!(ent.GetModelName() in ::Qweights)) continue;
 
               local found = false;

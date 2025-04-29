@@ -6,6 +6,7 @@
 
 if (!("Entities" in this)) return;
 IncludeScript("ppmod");
+IncludeScript("sl_resize");
 
 const MOD_MAX_SCALE = 3.5;
 const MOD_MIN_SCALE = 0.2;

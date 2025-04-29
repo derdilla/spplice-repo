@@ -1,5 +1,6 @@
 if (!("Entities" in this)) return;
 IncludeScript("ppmod");
+IncludeScript("sl_airportals");
 
 ::ppanfBlockingEntities <- [
   "prop_testchamber_door",

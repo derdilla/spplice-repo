@@ -1,5 +1,6 @@
 if (!("Entities" in this)) return;
 IncludeScript("ppmod4");
+IncludeScript("sl_holdportals");
 
 const PORTAL_ACROSS = 125.538838612; // sqrt((108 ^ 2) + (64 ^ 2))
 const PORTAL_ACROSS_HALF = 62.7694193059;

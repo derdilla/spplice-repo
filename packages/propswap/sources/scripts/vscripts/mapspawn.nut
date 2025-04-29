@@ -1,6 +1,7 @@
 if (!("Entities" in this)) return;
 if ("mod" in this) return;
 IncludeScript("ppmod3");
+IncludeScript("sl_propswap");
 
 local auto = Entities.CreateByClassname("logic_auto");
 ppmod.addscript(auto, "OnMapTransition", "mod.setup()");
@@ -104,7 +105,7 @@ ppmod.addscript(auto, "OnNewGame", "mod.setup()");
       if (curr.GetName() == "intro6_exception") {
 
         if (ppmod.player.eyes.GetAngles().x < 69) continue;
-        
+
         curr.Destroy();
         curr = ppmod.get("prop_weighted_cube");
         i ++;
@@ -135,14 +136,14 @@ ppmod.addscript(auto, "OnNewGame", "mod.setup()");
 
       GetPlayer().SetAbsOrigin(pos);
 
-      ppmod.fire(closest.ent, "EnableMotion");  
+      ppmod.fire(closest.ent, "EnableMotion");
       ppmod.fire(closest.ent, "Wake");
       ppmod.fire(closest.ent, "Ragdoll");
 
       SendToConsole("debug_fixmyposition");
 
       if (GetMapName().tolower() == "sp_a1_intro1" && closest.ent.GetName() == "box") {
-      
+
         ppmod.fire("propswap_tutorial", "Kill");
 
       }

@@ -1,5 +1,6 @@
 if (!("Entities" in this)) return;
 IncludeScript("ppmod4");
+IncludeScript("sl_allswap");
 
 /* Flags list:
   1 - Remove forward vector Z component

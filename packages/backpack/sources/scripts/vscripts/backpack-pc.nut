@@ -1,6 +1,7 @@
 if (!("Entities" in this)) return
 IncludeScript("ppmod3")
 IncludeScript("util")
+IncludeScript("sl_backpack")
 
 //this code makes me sick, cry, and vomit
 
