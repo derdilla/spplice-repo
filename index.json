@@ -40,7 +40,7 @@
       "title": "Reverse Mod",
       "author": "PortalRunner",
       "description": "Chell goes back to sleep, undoing the chaos on her way back by unsolving test chambers and returning the facility to how it was when she woke up.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/reverse.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/reverse/icon.jpg"
@@ -67,10 +67,10 @@
       "title": "Peanut Shader",
       "author": "PieyIsAPie",
       "description": "The most pretty decent way to replay your favorite game! Or if you are a new player, still a pretty good way to play it! No matter what, it is still a pretty good shader!\nMade by PieyIsAPie\nPlaytested by nikolan and PieyIsAPie",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/peanut-shader.tar.xz",
-      "icon": "https://p2r3.github.io/spplice-repo/packages/peanut-shader/icon.png"
+      "icon": "https://p2r3.github.io/spplice-repo/packages/peanut-shader/icon.jpg"
     },
     {
       "title": "Offset Mod",
@@ -283,10 +283,10 @@
       "title": "Maxwell The Companion Cat",
       "author": "lillith",
       "description": "In the rise of anxiety among test subjects. A solution was found, the Companion Cat™.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/maxwell.tar.xz",
-      "icon": "https://p2r3.github.io/spplice-repo/packages/maxwell/icon.png"
+      "icon": "https://p2r3.github.io/spplice-repo/packages/maxwell/icon.jpg"
     }
   ]
 }
