@@ -292,7 +292,7 @@
       "title": "No Developer Console",
       "author": "PortalRunner",
       "description": "Removes access to the developer console, disables external plugins, adds an on-screen speedrun timer.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "args": [],
       "file": "https://github.com/p2r3/spplice-repo/releases/download/latest/no-console.tar.xz",
       "icon": "https://p2r3.github.io/spplice-repo/packages/no-console/icon.jpg"
