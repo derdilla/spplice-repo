@@ -9,9 +9,9 @@ if (!("Entities" in this)) return;
 ::__elticksToString <- function (t) {
 
   local output = "";
-  local hrs = floor(t / 216000.0);
-  local min = floor(t / 3600.0);
-  local sec = (t % 3600.0) / 30.0;
+  local hrs = floor(t / 108000.0);
+  local min = floor(t / 1800.0);
+  local sec = (t % 1800.0) / 30.0;
 
   if (hrs != 0) {
     output += format("%d:%s%d:", hrs, (min % 60) < 10 ? "0" : "", min % 60);
