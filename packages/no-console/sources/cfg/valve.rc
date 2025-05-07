@@ -1,0 +1,32 @@
+// disable the dev console commands
+alias toggleconsole
+alias showconsole
+alias hideconsole
+
+// disable loading plugins, no sar for you
+alias plugin_load
+
+// load the base configuration
+//exec default.cfg
+
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
+
+// force-disable the console
+con_enable 0
+alias con_enable
+
+// filter out time report spew
+con_filter_enable 1
+con_filter_text_out "elTimeReport"
+
+// display the startup level
+startupmenu
